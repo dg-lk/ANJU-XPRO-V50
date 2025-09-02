@@ -121,7 +121,7 @@ Twitter URL: ${q}
   },
   SINHALASUB: function (movieData) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${movieData.title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${movieData.title}_*
 
 ▫⭐ *𝗜ᴍᴅʙ 𝗩ᴏᴛᴇꜱ ➟ _${movieData.rating?.value || "𝙽/𝙰"} ★_*
 ▫📆 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${movieData.metadata?.releaseDate || "𝙽/𝙰"}_*
@@ -137,7 +137,7 @@ Twitter URL: ${q}
   },
   CINESUBZ: function (title, metadata, rating) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*
        
 ▫⭐ *𝗜ᴍᴅʙ 𝗩ᴏᴛᴇꜱ ➟ _${rating?.value || "𝙽/𝙰"} ★_*
 ▫📆 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${metadata?.releaseDate || "𝙽/𝙰"}_*
@@ -183,7 +183,7 @@ Twitter URL: ${q}
   },
   CINETVSHOWALLDL: function (movieData) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${movieData.data.title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${movieData.data.title}_*
 
 ▫📆 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${movieData.data.releaseDate}_*
 ▫🌍 *𝗡ᴇᴛᴡᴏʀᴋ ➟ _${movieData.data.network}_*
@@ -197,7 +197,7 @@ Twitter URL: ${q}
   },
   SINHALASUBTVSHOWALLDL: function (movieData) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${movieData.data.showInfo.title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${movieData.data.showInfo.title}_*
 
 ▫📆 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${movieData.data.showInfo.releaseDate}_*
 ▫🌍 *𝗡ᴇᴛᴡᴏʀᴋ ➟ _${movieData.data.showInfo.network}_*
@@ -211,12 +211,12 @@ Twitter URL: ${q}
   },
   SIMNHALAMOVIE: function (title) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${title}_*  
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*  
         `.trim();
   },
   AWAMOVIE: function (title, releaseDate, country) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*
   
 ▫📆 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${releaseDate}_*  
 ▫🌍 *𝗖ᴏᴜɴᴛʀʏ ➟ _${country}_*
@@ -230,7 +230,7 @@ Twitter URL: ${q}
   },
   ANIMEMOVIE: function (title, releaseDate, country, duration) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*
  
 ▫📅 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${releaseDate}_*  
 ▫🌍 *𝗖ᴏᴜɴᴛʀʏ ➟ _${country}_*  
@@ -245,7 +245,7 @@ Twitter URL: ${q}
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
-🍀 *𝗧ɪᴛʟᴇ : _${title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*
  
 ▫📅 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${year}_*  
 ▫🌍 *𝗜ᴍᴅʙ 𝗩ᴏᴛᴇꜱ ➟ _${rating}_*  
@@ -261,7 +261,7 @@ Twitter URL: ${q}
   ADULTMOVIE: function (title, rating, description) {
     return `
 ──────────────────
-🍀 *𝗧ɪᴛʟᴇ : _${title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*
 
 ▫⭐ *𝗜ᴍᴅʙ 𝗩ᴏᴛᴇꜱ ➟ _${rating}_*
 ▫🌍 *𝗗ᴇꜱᴄʀɪᴘᴛɪᴏɴ ➟*  
@@ -278,7 +278,7 @@ Twitter URL: ${q}
   },
   ANIMOMOVIE: function (movieData) {
     return `       
-🍀 *𝗧ɪᴛʟᴇ :  ${movieData.title}_*
+☘️ *𝗧ɪᴛʟᴇ :  ${movieData.title}_*
   
 ▫⭐ *𝗗ᴇꜱᴄʀɪᴘᴛɪᴏɴ ➟ _${movieData.description}_* 
     
@@ -293,7 +293,7 @@ Twitter URL: ${q}
   },
   FILMPOMOVIE: function (title, rating, year, duration) {
     return `  
-🍀 *𝗧ɪᴛʟᴇ : _${title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${title}_*
 
 ▫⭐ *𝗜ᴍᴅʙ 𝗩ᴏᴛᴇꜱ ➟ _${rating}_*
 ▫📅 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${year}_*
