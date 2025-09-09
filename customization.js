@@ -156,7 +156,7 @@ Twitter URL: ${q}
     return `
 ☘️ *𝗧ᴠ 𝗦ʜᴏᴡ : _${movieResponse.episodeInfo?.title || "𝙽/𝙰"}_*
 
-▫📺 *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛᴛʟᴇ ➟ _${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}_*
+▫📺 *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛʟᴇ ➟ _${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}_*
 ▫📆 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${movieResponse.episodeInfo?.date || "𝙽/𝙰"}_*
 
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂
@@ -170,7 +170,7 @@ Twitter URL: ${q}
     return `
 ☘️ *𝗧ᴠ 𝗦ʜᴏᴡ : _${episodeInfo.title || "N/A"}_*
 
-▫📺 *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛᴛʟᴇ ➟ _${episodeInfo.episodeTitle || "N/A"}_*
+▫📺 *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛʟᴇ ➟ _${episodeInfo.episodeTitle || "N/A"}_*
 ▫📅 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${episodeInfo.date || "N/A"}_*
 ▫💾 *𝗤ᴜᴀʟɪᴛʏ ➟ _${quality.toUpperCase()}_*
 
@@ -278,7 +278,7 @@ Twitter URL: ${q}
   },
   ANIMOMOVIE: function (movieData) {
     return `       
-☘️ *𝗧ɪᴛʟᴇ :  ${movieData.title}_*
+☘️ *𝗧ɪᴛʟᴇ : _${movieData.title}_*
   
 ▫🎀 *𝗗ᴇꜱᴄʀɪᴘᴛɪᴏɴ ➟ _${movieData.description}_* 
     
