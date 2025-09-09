@@ -154,9 +154,9 @@ Twitter URL: ${q}
   },
   CINETVSHOW: function (movieResponse) {
     return `
-📺 *𝗧ᴠ 𝗦ʜᴏᴡ : _${movieResponse.episodeInfo?.title || "𝙽/𝙰"}_*
+☘️ *𝗧ᴠ 𝗦ʜᴏᴡ : _${movieResponse.episodeInfo?.title || "𝙽/𝙰"}_*
 
-▫🎞️ *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛᴛʟᴇ ➟ _${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}_*
+▫📺 *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛᴛʟᴇ ➟ _${movieResponse.episodeInfo?.episodeTitle || "𝙽/𝙰"}_*
 ▫📆 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${movieResponse.episodeInfo?.date || "𝙽/𝙰"}_*
 
 ▂▂▂▂▂▂▂▂▂▂▂▂▂▂
@@ -168,9 +168,9 @@ Twitter URL: ${q}
   },
   SINHALASUBTVSHOW: function (episodeInfo, quality) {
     return `
-📺 *𝗧ᴠ 𝗦ʜᴏᴡ : _${episodeInfo.title || "N/A"}_*
+☘️ *𝗧ᴠ 𝗦ʜᴏᴡ : _${episodeInfo.title || "N/A"}_*
 
-▫🎞️ *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛᴛʟᴇ ➟ _${episodeInfo.episodeTitle || "N/A"}_*
+▫📺 *𝗘ᴘɪꜱᴏᴅᴇ 𝗧ɪᴛᴛʟᴇ ➟ _${episodeInfo.episodeTitle || "N/A"}_*
 ▫📅 *𝗥ᴇʟᴇᴀꜱᴇ 𝗗ᴀᴛᴇ ➟ _${episodeInfo.date || "N/A"}_*
 ▫💾 *𝗤ᴜᴀʟɪᴛʏ ➟ _${quality.toUpperCase()}_*
 
